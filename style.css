@@ -1,0 +1,105 @@
+body{
+    margin:auto;    
+    max-width:80%;
+    border: 1px solid black;
+}
+
+#name{
+    display:flex;
+    margin-left:10px;
+}
+#name h1{
+    font-size: 3rem;
+}
+#header hr{
+    max-width:5%;  
+    height:1.5px;
+    background-color: black;
+    margin-left:15px;
+    margin-top:-10px;
+}
+#personal-details{
+    background-color: darkgrey;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right:20px;
+}
+i{
+    margin-right:5px;
+}
+#one-liner{
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:1.3rem;
+    background-color:#30c3d1;
+}
+#content{
+    display:flex;
+}
+aside{
+    background-color: #d3d7db;
+    width:30%;
+}
+main{
+    padding-left:10px;
+    width:70%;
+}
+#profile_summary{
+    margin-bottom:-50px;
+}
+.resume-components{
+    padding-top:10px;
+}
+.resume-components h2{
+    display: inline;
+    font-size: 2rem;
+}
+main .resume-components .bi{
+    font-size: 2rem;
+}
+ul {
+    list-style: none;
+    margin-left:-35px;
+    font-size: 1.1rem;
+}
+li{
+    padding-left: 2rem; 
+    position: relative;
+    line-height: 1.5rem;
+}
+  
+ul li {
+    padding-left: 2rem; 
+    position: relative; 
+}
+  
+ul li .bi {
+    position: absolute; 
+    left: 0; 
+    top: 0;
+}
+main hr, aside hr{
+    max-width:90%;  
+    height:1.2px;
+    background-color: black;
+    margin-left:5px;
+}
+.aside-components{
+    font-size:1.2rem;
+    padding-left:20px;
+}
+#certificate li{
+    padding-left: 2rem; 
+    position: relative;
+    line-height: 1.8rem;
+}
+#certificate ul{
+    list-style: none;
+}

@@ -1,0 +1,19 @@
+li{
+    padding-left: 2rem; 
+    position: relative;
+    line-height: 1.5rem;
+}
+ul{
+    list-style: none;
+    padding:0px;
+}
+  
+
+li .bi {
+    position: absolute; 
+    left: 0; 
+    top: 0;
+}
+span{
+    color:#30c3d1;
+}
